@@ -19,8 +19,6 @@ Para garantizar la comparabilidad de los resultados y aislar las métricas, el d
 
 * `/reference_cisco`: Contiene la adaptación de la **Implementación de Referencia** basada en el repositorio oficial de Cisco. Opera bajo la arquitectura jerárquica HSS utilizando SHA-256.
 * `/proposed_lms_shake`: Contiene la **Implementación Propuesta (Ad-hoc)**. Código desarrollado íntegramente desde cero en C para explotar la eficiencia de SHAKE-256 en la capa base LMS, simplificando la gestión de máscaras criptográficas.
-* `/benchmarks`: Scripts y *logs* de ejecución con las métricas empíricas de *KeyGen*, Firma y Verificación extraídas de ambas implementaciones.
-* `/docs`: Documentación adicional y memoria del proyecto.
 
 ## 🚀 Compilación y Ejecución (macOS / Linux)
 
