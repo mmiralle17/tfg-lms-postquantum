@@ -11,7 +11,7 @@ Repositorio oficial del Trabajo Fin de Grado (TFG) en Ingeniería Informática. 
 
 Este proyecto aborda la transición hacia la criptografía post-cuántica mediante el análisis y la implementación del esquema **Leighton-Micali Signature (LMS)**, estandarizado por el NIST (SP 800-208) y el IETF (RFC 8554). 
 
-El objetivo principal es evaluar el rendimiento de este esquema *stateful* basado en hash, proponiendo una arquitectura ad-hoc que sustituye la primitiva tradicional SHA-256 por funciones de salida extendida (**XOF**) de la familia SHA-3, concretamente **SHAKE-256**.
+El objetivo principal es evaluar el rendimiento de este esquema *stateful* basado en hash, proponiendo una arquitectura que sustituye la primitiva tradicional SHA-256 por funciones de salida extendida (**XOF**) de la familia SHA-3, concretamente **SHAKE-256**.
 
 ## 📂 Estructura del Repositorio
 
