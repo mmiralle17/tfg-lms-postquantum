@@ -26,7 +26,7 @@ Ambas implementaciones están escritas en C y requieren un compilador estándar 
 
 **Para compilar la implementación propuesta:**
 1. Se clona este repositorio `git clone https://github.com/mmiralle17/tfg-lms-postquantum.git`
-2. cd `tfg-lms-postquantum/tree/main`
+2. cd `tfg-lms-postquantum`
 3. make
    
 ## 📊 Principales Resultados
