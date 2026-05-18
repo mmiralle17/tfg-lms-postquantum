@@ -18,7 +18,9 @@ El objetivo principal es evaluar el rendimiento de este esquema *stateful* basad
 Para garantizar la comparabilidad de los resultados y aislar las métricas, el desarrollo se ha dividido en dos paradigmas de implementación diferenciados:
 
 * `/reference_cisco`: Contiene la adaptación de la **Implementación de Referencia** basada en el repositorio oficial de Cisco. Opera bajo la arquitectura jerárquica HSS utilizando SHA-256.
-* `/proposed_lms_shake`: Contiene la **Implementación Propuesta (Ad-hoc)**. Código desarrollado íntegramente desde cero en C para explotar la eficiencia de SHAKE-256 en la capa base LMS, simplificando la gestión de máscaras criptográficas.
+* `/proposed_lms_shake`: Contiene la **Implementación Propuesta**. Código desarrollado íntegramente desde cero en C para explotar la eficiencia de SHAKE-256 en la capa base LMS, simplificando la gestión de máscaras criptográficas.
+* `/HSS_SHA-256_resuls.csv`: Contiene los resultados de la **Implementación de Referencia**. Estos resultados son los que se utilizan en la memoria del tfg.
+* `/LMS_SHAKE-256_resuls.csv`: Contiene los resultados de la **Implementación Propuesta**. Estos resultados son los que se utilizan en la memoria del tfg.
 
 ## 🚀 Compilación y Ejecución (macOS / Linux)
 
