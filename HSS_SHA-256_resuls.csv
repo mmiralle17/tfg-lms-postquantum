@@ -1,0 +1,8 @@
+Parametro,Niveles_L,Alturas_h,Parametro_w,Keygen_tiempo_s,Firma_tiempo_s,Verificacion_tiempo_s,Tamano_firma_KB
+HSS-SHA256-L1-H5,1,5,8,0.113,0.064,0.044,
+HSS-SHA256-L1-H10,1,10,8,1.817,0.065,0.039,
+HSS-SHA256-L1-H15,1,15,8,56.338,1.056,0.046,
+HSS-SHA256-L1-H20,1,20,8,1818.0,1.1,,1.7
+HSS-SHA256-L2-H10_10,2,"10, 10",8,1.843,0.8,,2.9
+HSS-SHA256-L2-H15_5,2,"15, 5",8,57.072,0.77,,2.9
+HSS-SHA256-L4-H5_5_5_5,4,"5, 5, 5, 5",8,0.09,0.276,,5.2
