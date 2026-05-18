@@ -25,12 +25,10 @@ Para garantizar la comparabilidad de los resultados y aislar las métricas, el d
 Ambas implementaciones están escritas en C y requieren un compilador estándar (GCC/Clang). En sistemas macOS (Apple Silicon), puede ser necesaria la librería de soporte OpenSSL para ciertos módulos de compatibilidad.
 
 **Para compilar la implementación propuesta:**
-\`\`\`bash
-cd proposed_lms_shake
-make
-./lms_shake_demo
-\`\`\`
-
+1. Se clona este repositorio `git clone https://github.com/mmiralle17/tfg-lms-postquantum.git`
+2. cd `tfg-lms-postquantum/tree/main`
+3. make
+   
 ## 📊 Principales Resultados
 
 Como se detalla en la memoria del proyecto, la implementación basada en SHAKE-256 demuestra una competitividad excepcional en entornos asimétricos, logrando tiempos de verificación de **0.004 segundos** independientemente de la altura del árbol de Merkle ($H$), confirmando su viabilidad para ecosistemas con recursos limitados como dispositivos IoT.
