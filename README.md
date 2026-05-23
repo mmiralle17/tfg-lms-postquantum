@@ -19,6 +19,7 @@ Para garantizar la comparabilidad de los resultados y aislar las métricas, el d
 
 * `/reference_cisco`: Contiene la adaptación de la **Implementación de Referencia** basada en el repositorio oficial de Cisco. Opera bajo la arquitectura jerárquica HSS utilizando SHA-256.
 * `/proposed_lms_shake`: Contiene la **Implementación Propuesta**. Código desarrollado íntegramente desde cero en C para explotar la eficiencia de SHAKE-256 en la capa base LMS, simplificando la gestión de máscaras criptográficas.
+* `/lms_reserva_estado`: Contiene la instrumentación y simulación del mecanismo de Reserva Anticipada de Estado (State Reservation). Esta variante mitiga el severo cuello de botella de E/S de la memoria no volátil delegando la gestión transaccional a la memoria RAM mediante la reserva de bloques de índices
 * `/HSS_SHA-256_resuls.csv`: Contiene los resultados de la **Implementación de Referencia**. Estos resultados son los que se utilizan en la memoria del tfg.
 * `/LMS_SHAKE-256_resuls.csv`: Contiene los resultados de la **Implementación Propuesta**. Estos resultados son los que se utilizan en la memoria del tfg.
 
