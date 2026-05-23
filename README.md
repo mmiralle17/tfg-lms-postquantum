@@ -37,3 +37,4 @@ Ambas implementaciones están escritas en C y requieren un compilador estándar 
 ## 📊 Principales Resultados
 
 Como se detalla en la memoria del proyecto, la implementación basada en SHAKE-256 demuestra una competitividad excepcional en entornos asimétricos, logrando tiempos de verificación de **0.004 segundos** independientemente de la altura del árbol de Merkle ($h$), confirmando su viabilidad para ecosistemas con recursos limitados como dispositivos IoT.
+> * **Gestión del Estado y Rendimiento:** Se ha demostrado empíricamente que el paradigma de persistencia estricta en almacenamiento no volátil supone un severo cuello de botella de E/S. La implementación del mecanismo de **Reserva Anticipada de Estado** ha logrado incrementar el rendimiento transaccional del sistema en un **42%** (alcanzando más de 293 firmas por segundo), mitigando las latencias de disco y viabilizando su uso en entornos concurrentes.
