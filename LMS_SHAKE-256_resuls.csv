@@ -1,4 +1,8 @@
-Parametro,Niveles_L,Alturas_h,Parametro_w,Keygen_tiempo_s,Firma_tiempo_s,Verificacion_tiempo_s,Tamano_firma_KB
-LMS-SHAKE256-L1-H5,1,5,8,0.256,0.003,0.004,
-LMS-SHAKE256-L1-H10,1,10,8,7.468,0.003,0.004,
-LMS-SHAKE256-L1-H15,1,15,8,251.699,0.003,0.004,
+Parametro,Niveles_L,Alturas_h,Parametro_w,Longitud_m,Keygen_tiempo_s,Firma_tiempo_s,Verificacion_tiempo_s,Tamano_firma_KB
+LMS-SHAKE256-L1-H5-M32,1,5,8,32,0.256,0.003,0.004,1.1
+LMS-SHAKE256-L1-H8-M32,1,8,8,32,1.903,0.003,0.004,1.1
+LMS-SHAKE256-L1-H10-M32,1,10,8,32,7.468,0.003,0.004,1.1
+LMS-SHAKE256-L1-H12-M32,1,12,8,32,31.155,0.003,0.004,1.1
+LMS-SHAKE256-L1-H15-M32,1,15,8,32,251.699,0.003,0.004,1.1
+LMS-SHAKE256-L1-H10-M24,1,10,8,24,5.859,0.003,0.004,0.6
+LMS-SHAKE256-L1-H10-M16,1,10,8,16,4.033,0.003,0.004,0.3
